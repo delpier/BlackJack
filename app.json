@@ -1,0 +1,21 @@
+{
+  "name": "Blackjack",
+  "scripts": {
+  },
+  "env": {
+    "KEY": "TEST"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
